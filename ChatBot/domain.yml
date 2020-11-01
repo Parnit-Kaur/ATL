@@ -1,0 +1,32 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - find_skill
+
+actions:
+  - action_show_quiz
+
+entities:
+  - skill
+slots:
+  skill:
+    type: text
+    auto_fill: True
+
+responses:
+  utter_greet:
+  - text: "Hey! Welcome to the first session of the testing process. All the best :). Which skill do you want to specialize in ?"
+
+  utter_find_skill:
+  - text: "Looking for your quiz on {skill}!! Score a minimum of 75% to go proceed to stage 2"
+
+  utter_goodbye:
+  - text: "Bye, Hope you learned something new !!"
+
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
