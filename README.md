@@ -11,7 +11,20 @@ Smart speaker system gives instructions to the candidate during the exam.
 Student Mentor System: for proper and trusted grades 
 Physical Testing at nearby centres (eg, sports)
 
-                    Themes for the project
+Back-end Technology Stack
+    • Programming languages (Python(with additional libraries))
+    • Frameworks (Flask ,Rasa, GTTS, Playsound)
+    • Databases (MySQL)
+
+Front-end technology stack
+    • HTML
+    • CSS
+
+Python additional Libraries used: Flask ,Rasa, GTTS, Playsound
+
+ChatBot folder contains the models as well as data for the chatbot. To run the chatbot, the actions file should be run too. The test folder contains the main (python) file that submits the form and then the user interacts with the chatbot. After that there is a sample quiz on C++ that includes sound to make it interactive. The the next step would be the mentor match and grading process.
+
+Themes for the project
                     
 Atma Nirbhar Bharat:
 
